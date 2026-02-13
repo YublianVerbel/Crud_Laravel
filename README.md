@@ -77,8 +77,8 @@ Node.js y NPM
 Git
 
 # Instalación y Configuración
-1. Clonar el repositorio
-git clone https://github.com/YublianVerbel/Crud_Laravel <br>
+1. Clonar el repositorio <br>
+- git clone https://github.com/YublianVerbel/Crud_Laravel <br>
 - cd Crud_Laravel
 
 3. Instalar dependenciasv
