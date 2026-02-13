@@ -57,3 +57,50 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# CRUD de Productos
+
+Proyecto básico CRUD desarrollado con Laravel 12 y PostgreSQL.
+
+# Requisitos
+
+Antes de ejecutar el proyecto, asegúrate de tener instalado:
+
+PHP >= 8.2
+
+Composer
+
+PostgreSQL
+
+Node.js y NPM
+
+Git
+
+# Instalación y Configuración
+1. Clonar el repositorio
+git clone https://github.com/YublianVerbel/Crud_Laravel <br>
+- cd Crud_Laravel
+
+3. Instalar dependenciasv
+composer install
+
+5. Configurar variables de entorno<br>
+
+    DB_CONNECTION=pgsql<br>
+    DB_HOST=127.0.0.1<br>
+    DB_PORT=5432<br>
+    DB_DATABASE=test<br>
+    DB_USERNAME=postgres<br>
+    DB_PASSWORD=tu_password<br>
+
+4.Ejecutar migraciones
+- php artisan migrate<br>
+
+# Ejecutar el proyecto<br>
+- composer run dev
+
+# Endpoint disponible<br>
+- /products
+
+*Utilizar este comando cuando quieras ingrasar datos ya pre-hechos a la lista* <br>
+- php artisan migrate:fresh --seed
