@@ -81,8 +81,8 @@ Git
 - git clone https://github.com/YublianVerbel/Crud_Laravel <br>
 - cd Crud_Laravel
 
-3. Instalar dependenciasv
-composer install
+3. Instalar dependencias <br>
+- composer install
 
 5. Configurar variables de entorno<br>
 
